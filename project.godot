@@ -1,0 +1,36 @@
+; Engine configuration file.
+; It's best edited using the editor UI and not directly,
+; since the parameters that go here are not all obvious.
+;
+; Format:
+;   [section] ; section goes between []
+;   param=value ; assign values to parameters
+
+config_version=5
+
+[application]
+
+config/name="cuyrun_games_mreki"
+run/main_scene="res://scene/cuyrun.tscn"
+config/features=PackedStringArray("4.6", "GL Compatibility")
+config/icon="res://icon.svg"
+
+[autoload]
+
+Controller="*uid://c513vm8ounmlk"
+
+[display]
+
+window/size/mode=1
+window/size/resizable=false
+
+[physics]
+
+3d/physics_engine="Jolt Physics"
+2d/default_gravity=2300.0
+
+[rendering]
+
+rendering_device/driver.windows="d3d12"
+renderer/rendering_method="gl_compatibility"
+renderer/rendering_method.mobile="gl_compatibility"
