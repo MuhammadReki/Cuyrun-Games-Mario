@@ -20,3 +20,5 @@ Mengembangkan kemampuan dalam pembuatan game 2D serta memahami alur kerja pengem
 Masih dalam tahap pengembangan dan akan terus di-update dengan fitur baru.
 
 📸 Dokumentasi Game
+
+![Screenshot Level 1](screenshots/level1.png)
